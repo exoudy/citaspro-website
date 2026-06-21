@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CitasPro: Automatización Inteligente para Clínicas Dentales</title>
+    <style>
+        /* INSTRUCCIONES: Este es un CSS limpio y corporativo basado en patrones B2B de alta conversión. */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; background-color: #f7f9fb; }
+        .container { width: 85%; max-width: 1200px; margin: 0 auto; padding: 40px 0; }
+        header { background-color: #ffffff; box-shadow: 0 2px 5px rgba(0,0,0,.05); position: sticky; top: 0; z-index: 10; padding: 15px 0;}
+        .branding { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: auto; }
+        .logo h1 { color: #004d99; font-size: 2em; font-weight: 700;}
+        nav a { margin-left: 30px; text-decoration: none; color: #555; font-weight: 600; transition: color 0.2s; }
+        nav a:hover { color: #004d99; }
+
+        /* --- SECCIÓN HERO (El gancho primario) --- */
+        #hero { background-color: #eaf5ff; padding: 120px 0; text-align: center; border-bottom: 1px solid #ddd;}
+        #hero h2 { font-size: 3.8em; color: #004d99; margin-bottom: 20px; line-height: 1.1; font-weight: 800;}
+        #hero p { font-size: 1.4em; color: #555; max-width: 800px; margin: 30px auto 40px; }
+        .cta-button { background-color: #ff9900; color: white; padding: 18px 50px; text-decoration: none; font-weight: bold; border-radius: 6px; transition: background-color 0.3s, transform 0.2s; display: inline-block; box-shadow: 0 4px #cc7a00;}
+        .cta-button:hover { background-color: #e68800; transform: translateY(-2px); }
+
+        /* --- SECCIÓN DOLOR (El identificador del problema) --- */
+        #dolor h3 { font-size: 2.5em; color: #c93d4a;}
+        .dolor-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 40px;}
+        .col-problema { background: #fff0f3; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(201, 61, 74, .1); border-left: 5px solid #c93d4a;}
+        .col-problema h4 { color: #c93d4a; font-size: 1.3em;}
+
+        /* --- SECCIÓN SOLUCIÓN (El 'cómo' funciona) --- */
+        #solucion { background-color: #ffffff; }
+        #solucion h3 { font-size: 2.5em; color: #004d99;}
+        .feature-grid { display: flex; justify-content: space-between; gap: 30px; margin-top: 60px;}
+        .col-solucion { flex-basis: 30%; text-align: left; padding: 20px; border-radius: 8px; background: #eaf5ff; box-shadow: 0 4px 10px rgba(74, 144, 226, .1); }
+        .col-solucion h4 { color: #004d99; font-size: 1.5em;}
+
+        /* --- SECCIÓN ROI/BENEFICIOS (El valor monetario) --- */
+        #metricas { background-color: #e6f7f0; padding: 80px 0;}
+        #metricas h3 { font-size: 2.5em; color: #1e8449;}
+        .metricas-container { display: flex; justify-content: space-around; text-align: center; gap: 50px; margin-top: 50px;}
+        .metrica-box h2 { font-size: 3em; color: #1e8449; margin: 0;}
+        .metrica-box p { font-size: 1.1em; color: #666; }
+
+        /* --- TESTIMONIOS Y CTA FINAL --- */
+        #testimoniales { padding: 80px 0; background-color: #fffbeb;}
+        #final-cta { padding: 90px 0; text-align: center; background-color: #004d99; color:#ffffff;}
+        #final-cta h2, #final-cta p { color: white;}
+
+        /* FOOTER */
+        footer { background-color: #333; color: #aaa; padding: 30px 0;}
+    </style>
+</head>
+<body>
+
+    <!-- HEADER (Navegación corporativa) -->
+    <header>
+        <div class="branding">
+            <div class="logo"><h1>CitasPro</h1></h1>
+            <nav>
+                <a href="#solucion">Plataforma</a>
+                <a href="#metricas">ROI</a>
+                <a href="#testimoniales">Clientes</a>
+                <a href="#final-cta" class="cta-button" style="display:inline-block; padding: 8px 20px; font-size: 1em;">Demo Gratuita</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero">
+        <div class="container">
+            <h2>☎️ Automatiza el agente de llamadas y agendamiento.</h2>
+            <p>La inteligencia artificial que convierte la fricción administrativa en **crecimiento controlado** para tu clínica dental.</p>
+            <a href="#final-cta" class="cta-button">🚀 Solicitar mi Diagnóstico Gratuito</a>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DOLOR (El gancho: reconocer el problema) -->
+    <section id="dolor" class="container">
+        <h3>¿Tu clínica está perdiendo ingresos por procesos manuales?</h3>
+        <p style="max-width: 800px; margin: 0 auto 40px;">Los sistemas de agendamiento actuales no están diseñados para el volumen y la complejidad del paciente moderno. Esto te cuesta tiempo, dinero y reputación.</p>
+        <div class="dolor-cols">
+            <div class="col-problema">
+                <h4>🕰️ Falla 24/7</h4><p>Problemas de cobertura fuera del horario laboral o días feriados. Las oportunidades se pierden hasta el día hábil siguiente.</p>
+            </div>
+             <div class="col-problema">
+                <h4>📊 Baja Tasa de Ocupación</h4><p>Manejo ineficiente de reprogramaciones y cuellos de botella en la primera llamada, lo que genera espacios muertos costosos.</p>
+            </div>
+             <div class="col-problema">
+                <h4>📑 Datos Dispersos</h4><p>Exceso de manejo manual de información (WhatsApp, llamadas, fichas), aumentando el riesgo de errores y los tiempos de espera del paciente.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN SOLUCIÓN -->
+    <section id="solucion">
+        <div class="container">
+            <h3>La Solución: Un Agente Inteligente al servicio de tu Clínica</h3>
+            <div class="feature-grid">
+                <div class="col-solucion">
+                    <h4>🤖 Comunicación IA Constante</h4><p>Nuestro agente simula el proceso humano mejorado. Agenda citas, responde preguntas frecuentes e incluso realiza *seguimiento proactivo*.</p>
+                    <small style="display:block; margin-top: 10px;">*(Automatiza llamadas y mensajes)*</small>
+                </div>
+                 <div class="col-solucion">
+                    <h4>🧬 Integración Dental Nativa</h4><p>No es un robot genérico. Entendemos la terminología dental (retrasos, limpiezas, etc.) para asegurar una conversación natural y relevante.</p>
+                    <small style="display:block; margin-top: 10px;">*(Lenguaje especializado)*</small>
+                </div>
+                 <div class="col-solucion">
+                    <h4>📊 Reportes de Rendimiento en Tiempo Real</h4><p>Visualización completa del rendimiento. Saberás cuántas citas se agendaron sin intervención humana y cómo optimizarlo.</p>
+                     <small style="display:block; margin-top: 10px;">*(Business Intelligence para la clínica)*</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- SECCIÓN MÉTRICAS / ROI -->
+    <section id="metricas">
+        <div class="container">
+            <h3>🎯 Mide tu Retorno de Inversión (ROI) con CitasPro</h3>
+            <div class="metricas-container">
+                <div class="metrica-box">
+                    <h2>+25%</h2>
+                    <p>Aumento promedio en el porcentaje de *show rate* y ocupación de agenda.</p>
+                </div>
+                <div class="metrica-box">
+                    <h2>↓ 80%</h2>
+                    <p>Reducción del tiempo administrativo dedicado a tareas repetitivas por cita.</p>
+                </div>
+                 <div class="metrica-box">
+                    <h2>24/7</h2>
+                    <p>Disponibilidad ininterrumpida de atención y agendamiento, 365 días al año.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- TESTIMONIOS -->
+    <section id="testimoniales" class="container">
+        <h3>⭐ Clínicas que ya han maximizado su potencial</h3>
+        <blockquote style="background: #f0f7ff; padding: 30px; border-radius: 8px; margin-top: 40px; text-align: center;">
+            <p style="font-style: italic; font-size: 1.2em;">"Desde que implementamos CitasPro, el flujo de llamadas es impecable. Nuestro equipo está más enfocado en la calidad del paciente y menos en la gestión de citas. Veremos a un retorno de inversión claro con los datos."</p>
+            <cite style="display: block; margin-top: 15px;">— Dr. Martín Gómez, Coordinador General | Clínica Dental Alfa.</cite>
+        </blockquote>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section id="final-cta">
+        <div class="container">
+            <h2>¿Listo para transformar tu operación?</h2>
+            <p style="font-size: 1.3em;">Contáctanos hoy mismo y te mostraremos un diagnóstico exacto de dónde estás perdiendo dinero en el proceso...</p>
+            <!-- Usamos placeholder # donde debe ir la acción real del botón -->
+            <a href="#final-cta" class="cta-button" style="background-color: #ff9900; padding: 30px 70px; font-size: 1.4em;">DEMO GRATUITA Y DIAGNÓSTICO DE FLUIDEZ OPERATIVA</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+            <div>&copy; 2026 CitasPro. Todos los derechos reservados. | Ingeniería de Flujos Clínicos Digitales.</div>
+            <p>Contacto Directo: <a href="mailto:info@citaspro.com" style="color:#ccc; text-decoration:none;">info@citaspro.com</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
